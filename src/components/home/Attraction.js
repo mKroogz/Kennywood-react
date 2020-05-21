@@ -5,6 +5,7 @@ const Attraction = props => {
   return (
     <>
       <section className="parkArea">
+        <strong>Rides</strong>
         <article>
           {props.attraction.name}
         </article>

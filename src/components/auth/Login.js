@@ -3,7 +3,7 @@ import "./Auth.css"
 import useSimpleAuth from "./useSimpleAuth";
 
 const Login = props => {
-  const [credentials, setCredentials] = useState({ username: "lr2020", password: "Test123!" });
+  const [credentials, setCredentials] = useState({ username: "kroogz", password: "" });
   const { login } = useSimpleAuth()
 
   const handleFieldChange = (evt) => {
